@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Books shop: @ViewBag.Title</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+    <h1>Welcome to Book Shop</h1>
+    <menu>
+        <li><a asp-controller="App" asp-action="Index">Home</a></li>
+        <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
+        <li><a asp-controller="App" asp-action="About">About</a></li>
+
+    </menu></header>
+
+    <section>
+        <h2>@ViewBag.Title</h2>
+        @RenderBody()
+    </section>
+    <footer>Copyright 2020 Books Shop </footer>
+    <script src="/node_modules"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/index.js"></script>
+</body>
+</html>
+

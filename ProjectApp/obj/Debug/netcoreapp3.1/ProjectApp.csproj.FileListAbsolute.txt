@@ -105,3 +105,7 @@ C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\bin\
 C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\bin\Debug\netcoreapp3.1\OdeToCode.UseNodeModules.dll
 C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.csproj.CoreCompileInputs.cache
 C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.MvcApplicationPartsAssemblyInfo.cache
+C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\App\About.cshtml.g.cs
+C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\App\Contact.cshtml.g.cs

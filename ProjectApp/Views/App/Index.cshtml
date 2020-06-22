@@ -11,7 +11,7 @@
 <body>
     <h2>@ViewBag.Title</h2>
     <div class="product-info">
-        <img src="img/book1.jpg" width="130" height="130" />
+        <img src="img/book1.jpg" />
         <h3>The Mud</h3>
         <ul class="product-props">
             <li>Price: 9.00</li>
@@ -21,26 +21,50 @@
         <button id="buyButton">Buy</button>
     </div>
 
-    <div id="theForm">Login</div>
-    <form class="popup-form">
-        <label>Username:</label>
-        <br />
-        <input />
-        <br />
-        <label>Email:</label>
-        <br />
-        <input type="email" />
-        <br />
-        <label>Subject:</label>
-        <br />
-        <input type="text" />
-        <br />
-        <label>Message:</label>
-        <br />
-        <textarea rows="4"></textarea>
-        <br />
-        <input type="submit" value="Send Message" />
-    </form>
+    <div id="theForm">
+        Login
+        <form class="popup-form">
+            <label>Username:</label>
+            <br />
+            <input />
+            <br />
+            <label>Email:</label>
+            <br />
+            <input type="email" />
+            <br />
+            <label>Subject:</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea rows="4"></textarea>
+            <br />
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
 
+    <div>
+        <div id="loginToggle">Login</div>
+        <form class="popup-form">
+            <div>
+                <label>Username</label>
+                <input />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" />
+            </div>
+            <div>
+                <input type="checkbox" />
+                <label>Remember Me?</label>
+            </div>
+
+            <div>
+                <input type="submit" value="Login" />
+            </div>
+        </form>
+    </div>
 </body>
-</html>
+  </html>
+   
