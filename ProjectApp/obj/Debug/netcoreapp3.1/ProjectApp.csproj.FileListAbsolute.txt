@@ -109,3 +109,5 @@ C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\
 C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\App\About.cshtml.g.cs
 C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\App\Contact.cshtml.g.cs
+C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
