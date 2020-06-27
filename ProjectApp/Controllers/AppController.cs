@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ProjectApp.Data;
 using ProjectApp.Services;
 using ProjectApp.ViewModels;
 
@@ -11,9 +12,11 @@ namespace ProjectApp.Controllers
     public class AppController : Controller
     {
         private readonly IMailService _mailService;
-        public AppController(IMailService mailService)
+        private readonly BookContext _context;
+        public AppController(IMailService mailService, BookContext context)
         {
             _mailService = mailService;
+            _context = context;
         }
         public IActionResult Index()
         {
@@ -48,5 +51,15 @@ namespace ProjectApp.Controllers
             ViewBag.Title = "About Us";
             return View();
         }
+
+        public IActionResult Shop()
+        {
+            var results = from p in _context.Products
+                          orderby p.Category
+                          select p;
+            return View(results.ToList());
+        }
+
+
     }
 }

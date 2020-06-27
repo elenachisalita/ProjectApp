@@ -26,8 +26,15 @@ using ProjectApp.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\Views\_ViewImports.cshtml"
+using ProjectApp.Data.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"adcca2ef4fd2990c6279b4312fe44e2c80fab3da", @"/Views/App/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b9896e6d25b9f4f1ebf6190e88c93bdb96ab68b6", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ac1c216818977f2ac6ab02244bd826fc1baf6de2", @"/Views/_ViewImports.cshtml")]
     public class Views_App_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("href", new global::Microsoft.AspNetCore.Html.HtmlString("~/css/site.css"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -70,7 +77,7 @@ using ProjectApp.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da5023", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da5238", async() => {
                 WriteLiteral("\r\n    <title>Books shop: ");
 #nullable restore
 #line 8 "C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\Views\App\Index.cshtml"
@@ -80,7 +87,7 @@ using ProjectApp.ViewModels;
 #line hidden
 #nullable disable
                 WriteLiteral("</title>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da5575", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da5790", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -107,7 +114,7 @@ using ProjectApp.ViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da7457", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da7672", async() => {
                 WriteLiteral("\r\n    <h2>");
 #nullable restore
 #line 12 "C:\HELEN STUFF\UBB\AN II\Semestrul 2\02. .NET\Proiect\ProjectApp\ProjectApp\Views\App\Index.cshtml"
@@ -134,7 +141,7 @@ using ProjectApp.ViewModels;
             <div id=""theForm"">
                 Login
                 ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da8552", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da8767", async() => {
                     WriteLiteral(@"
                     <label>Username:</label>
                     <br />
@@ -169,7 +176,7 @@ using ProjectApp.ViewModels;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            </div>\r\n\r\n            <div>\r\n                <div id=\"loginToggle\">Login</div>\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da10716", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "adcca2ef4fd2990c6279b4312fe44e2c80fab3da10931", async() => {
                     WriteLiteral(@"
                     <div>
                         <label>Username</label>

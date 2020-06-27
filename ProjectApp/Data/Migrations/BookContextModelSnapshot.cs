@@ -19,7 +19,7 @@ namespace ProjectApp.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("DutchTreat.Data.Entities.Order", b =>
+            modelBuilder.Entity("ProjectApp.Data.Entities.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,9 +35,17 @@ namespace ProjectApp.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Orders");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            OrderDate = new DateTime(2020, 6, 27, 11, 39, 53, 348, DateTimeKind.Utc).AddTicks(6594),
+                            OrderNumber = "12345"
+                        });
                 });
 
-            modelBuilder.Entity("DutchTreat.Data.Entities.OrderItem", b =>
+            modelBuilder.Entity("ProjectApp.Data.Entities.OrderItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -65,7 +73,7 @@ namespace ProjectApp.Migrations
                     b.ToTable("OrderItem");
                 });
 
-            modelBuilder.Entity("DutchTreat.Data.Entities.Product", b =>
+            modelBuilder.Entity("ProjectApp.Data.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -110,13 +118,13 @@ namespace ProjectApp.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("DutchTreat.Data.Entities.OrderItem", b =>
+            modelBuilder.Entity("ProjectApp.Data.Entities.OrderItem", b =>
                 {
-                    b.HasOne("DutchTreat.Data.Entities.Order", "Order")
+                    b.HasOne("ProjectApp.Data.Entities.Order", "Order")
                         .WithMany("Items")
                         .HasForeignKey("OrderId");
 
-                    b.HasOne("DutchTreat.Data.Entities.Product", "Product")
+                    b.HasOne("ProjectApp.Data.Entities.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId");
                 });
